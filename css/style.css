@@ -33,5 +33,11 @@ text from impressum link */
 .navigation-links {
     margin-right: 30px;
 }
-
 /*Navbar styling End*/
+/*Blockquote styling Start*/
+.blockquote {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+/*Blockquote styling End*/
