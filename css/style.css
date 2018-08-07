@@ -1,0 +1,43 @@
+/* added a height to delete the unused space under the footer */
+#main{
+    height:100vh;
+  }
+
+/* Icon styling Start*/
+
+/* added custom size for the icons */
+.material-icons {
+    font-size: 70px;
+}
+
+/* Icon styling End*/
+
+/*footer-copyright Start: added margin and separated 
+text from impressum link */
+.copyright-text {
+    float: left;
+    margin-left: 30px;
+}
+
+.impressum-link {
+    float: right;
+    margin-right: 30px; 
+}
+/*footer-copyright End */ 
+
+/*Navbar styling Start*/
+.nav-brand {
+    margin-left: 30px;
+}
+
+.navigation-links {
+    margin-right: 30px;
+}
+/*Navbar styling End*/
+/*Blockquote styling Start*/
+.blockquote {
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+/*Blockquote styling End*/

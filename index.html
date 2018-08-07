@@ -1,15 +1,192 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
-        <head>
-                <meta charset="utf-8">
-                <base href="/">
-                <meta content="NOINDEX,NOFOLLOW" name="robots">
-                <meta content="width=device-width,initial-scale=1.0" name="viewport">
-                <title>This is going to be nice - T-Systems Multimedia Solutions GmbH</title>
-        </head>
-   <body style="font-size: 18.8235px; line-height: 22.5882px;">
-        <div>
-          Please stay tuned!
+<html>
+<head>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta content="NOINDEX,NOFOLLOW" name="robots">
+  <title>MMS OpenSource Portfolio</title>
+    
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  <!--Import CSS files-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navbar Start-->
+<div id="main">
+<div class="navbar-fixed">
+<nav class="lighten-blue lighten-1" role="navigation">
+  <div class="nav-brand"><a id="logo-container" href="https://github.com/T-Systems-MMS" class="brand-logo">T-Systems MMS OpenSource</a>
+  </div>
+  <div class="navigation-links">
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#footer">About</a></li>
+  </ul>
+  <ul class="right hide-on-med-and-down">
+      <li><a href="#index-banner">Portfolio</a></li>
+  </ul>
+
+  <ul id="nav-mobile" class="sidenav">
+    <li><a href="#footer">About</a></li>
+  </ul>
+  <ul id="nav-mobile" class="sidenav">
+      <li><a href="#index-banner">Portfolio</a></li>
+  </ul>
+  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+</div>
+<!--Navbar End-->
+<!--Banner Start-->
+<div class="section banner" id="index-banner">
+  <div class="container">
+    <br><br>
+    <h1 class="header center black-text">T-Systems MMS OpenSource</h1>
+    <div>
+      <h5 class="header center light">Official GitHub page from T-Systems MMS</h5>
+    </div>
+    <div class="blockquote">
+      <blockquote>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+      </blockquote>
+     <br></br>
+
+    </div>
+  </div>
+<!--Banner End-->
+
+
+  <div class="container">
+    <div class="section">
+    
+     <!--Icon Section Start-->
+     <div class="row">
+       <div class="col s12 m4">
+         <h2 class="center light-blue-text"><i class="material-icons">bug_report</i></h2>
+           <div class="icon-block">
+           <h5 class="center">Systemchecks written by our collaborators</h5>
+
+           <p class="light center">We've wrote some useful checks so that you can monitor your system with our NRPE checks for example and uploaded them to our GitHub repository.
+           </p><br>
         </div>
-   </body>
+
+        <!--Modal Trigger Start-->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Click me</a>
+        <!--Modal Trigger End-->
+
+        <!--Modal Start-->
+        <!-- Modal Structure-->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Systemchecks</h4>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <!--Modal End-->
+
+
+       </div>
+
+       <div class="col s12 m4">
+         <div class="icon-block">
+           <h2 class="center light-blue-text"><i class="material-icons">book</i></h2>
+           <h5 class="center">Ready to execute Ansible code</h5>
+
+           <p class="light center">Check out our playbooks and roles written for Ansible. They vary from tasks like install and configure NRPE on your system to secure your tomcats with some security measures.</p>
+         </div>
+
+         <!--Modal Trigger Start-->
+         <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Click me</a>
+         <!--Modal Trigger End-->
+
+         <!--Modal Start-->
+         <!-- Modal Structure-->
+         <div id="modal2" class="modal">
+            <div class="modal-content">
+              <h4>Ansible</h4>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+         </div>
+         <!--Modal End-->
+
+       </div>
+
+       <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">build</i></h2>
+            <h5 class="center">Use our Puppet code for your system</h5>
+ 
+            <p class="light center">Our selection of Puppet modules is broadly diversified. They cover multiple use cases, such as our SecC modules. You will be able to implement and use our modules with ease</p>
+          </div>
+       
+          <!--Modal Trigger Start-->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Click me</a>
+          <!--Modal Trigger End-->
+
+          <!--Modal Start-->
+          <!-- Modal Structure -->
+         <div id="modal3" class="modal">
+           <div class="modal-content">
+             <h4>Puppet</h4>
+             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+           </div>
+           <div class="modal-footer">
+             <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+           </div>
+         </div>
+        </div>
+         <!--Modal End-->
+     
+    </div>
+
+    </div>
+ </div>
+</div>
+
+ <!--Footer Start-->
+ <div id="footer">
+ <footer class="page-footer magenta">
+   <div class="container">
+     <div class="row">
+       <div class="col l6 s12">
+         <h5 class="white-text">Company Bio</h5>
+         <p class="text-lighten-5 flowtext>">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet</p>
+
+
+       </div>
+       <div class="col l4 offset-l2 s12">
+         <h5 class="white-text">About Us</h5>
+         <ul>
+           <li><a class="grey-text text-lighten-3" href="https://www.t-systems-mms.com/">Homepage</a></li>
+           <li><a class="grey-text text-lighten-3" href="https://github.com/T-Systems-MMS">GitHub Repository</a></li>
+           <li><a class="grey-text text-lighten-3" href="https://forge.puppet.com/tsystemsmms">Puppet Forge</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="footer-copyright">
+     <div class="container copyright-text">
+        Copyright © 2018 T-Systems Multimedia Solutions GmbH
+     </div>
+     <div class="impressum-link">
+        <a class="grey-text text-lighten-4 right" href="impressum.html">Impressum</a>
+    </div>
+ </footer>
+ </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+  </body>
 </html>
+      
