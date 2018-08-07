@@ -3,14 +3,14 @@
     height:100vh;
   }
 
-/* Icon styling Start*/
+/*Icon styling Start*/
 
-/* added custom size for the icons */
+/*added custom size for the icons*/
 .material-icons {
     font-size: 70px;
 }
 
-/* Icon styling End*/
+/*Icon styling End*/
 
 /*footer-copyright Start: added margin and separated 
 text from impressum link */
@@ -39,5 +39,19 @@ text from impressum link */
     margin-top: 65px;
     margin-bottom: 20px;
 }
-
 /*Blockquote styling End*/
+
+/*Image styling Start*/
+.tsmms {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+/*Image styling End*/
+
+/*Official_text styling Start*/
+#official_text {
+    font-size: 2.00rem
+}
+/*Official_text styling End*/
