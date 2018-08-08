@@ -55,3 +55,15 @@ text from impressum link */
     font-size: 2.00rem
 }
 /*Official_text styling End*/
+
+/*Styling the text elements with our font Start*/
+#main {
+    font-family: Telegrotesk
+    }
+/*Styling the text elements with our font End*/
+
+/*Specific Styling for the Buttons Start*/
+#button1 {
+    margin-top: 5px;
+}
+/*Specific Styling for the Buttons End*/
