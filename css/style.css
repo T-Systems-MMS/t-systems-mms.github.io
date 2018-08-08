@@ -67,3 +67,20 @@ text from impressum link */
     margin-top: 5px;
 }
 /*Specific Styling for the Buttons End*/
+/*Styling blockquote Start*/
+blockquote {
+    max-width:600px;
+    text-align: center; 
+    border-left: 3px solid #E20074; 
+    padding-left: 5px;
+    margin:0 auto;
+    width:auto;
+    display:table
+}
+/*Styling blockquote End*/
+
+/*Edit for mobile imprint link Start*/
+.imprint_mobile {
+    margin-left: 6px;
+}
+/*Edit for mobile imprint link End*/
