@@ -75,12 +75,17 @@ blockquote {
     padding-left: 5px;
     margin:0 auto;
     width:auto;
-    display:table
+    display:table;
 }
 /*Styling blockquote End*/
 
 /*Edit for mobile imprint link Start*/
 .imprint_mobile {
     margin-left: 6px;
+    margin-top: -20px;
 }
 /*Edit for mobile imprint link End*/
+
+/*Edit rounded images styling Start*/
+
+/*Edit rounded images styling End*/

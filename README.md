@@ -1,2 +1,4 @@
 # t-systems-mms.github.io
-static github page
+Official GitHub OpenSource Portfolio for T-Systems Multimedia Solutions.
+
+Visit us!
