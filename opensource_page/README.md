@@ -13,7 +13,7 @@ apt-get install -y nodejs
 Check installed versions:
 
 ```bash
-nodejs --version
+node --version
 npm --version
 ```
 
