@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "npm": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "labels": ["Renovate::npm"]
+    }
+  ]
+}
