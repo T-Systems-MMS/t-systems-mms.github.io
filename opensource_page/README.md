@@ -1,9 +1,27 @@
 ## Bootstrapping the project
 
+```bash
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+```
 
+```bash
+yum -y install nodejs
+or
+apt-get install -y nodejs
+```
 
+Check installed versions:
 
+```bash
+nodejs --version
+npm --version
+```
 
+Change directory to project directory and execute:
+
+```bash
+npm install
+```
 
 ## Available Scripts
 
