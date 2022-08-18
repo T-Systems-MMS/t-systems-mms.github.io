@@ -10,11 +10,17 @@ or
 apt-get install -y nodejs
 ```
 
-Check installed versions:
+Check installed versions (should be node version 16):
 
 ```bash
 node --version
 npm --version
+```
+
+Check out our code repository:
+
+```bash
+git clone https://github.com/T-Systems-MMS/t-systems-mms.github.io.git
 ```
 
 Change directory to project directory and execute:

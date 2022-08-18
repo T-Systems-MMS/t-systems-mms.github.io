@@ -1,10 +1,25 @@
-import "./App.css";
+// import css
+import "./index.css";
 
+// import site components
+import Header from "./components/Header.js";
+import Body from "./components/Body.js";
+import Carousell from "./components/Carousell.js";
+import Footer from "./components/Footer.js";
+
+// main app function
 function App() {
   return (
     <div className="App">
-      <header className="App-header text-3xl font-bold underline">Learn React</header>
-      <scale-button>Click</scale-button>
+      {/* import header component */}
+      <Header></Header>
+      {/* import body component */}
+      <Body>
+        {/* import carousell component into body */}
+        <Carousell></Carousell>
+      </Body>
+      {/* import footer component */}
+      <Footer></Footer>
     </div>
   );
 }
