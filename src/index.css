@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+	--telekom-color-primary-standard: white;
+}
+
+.segment-navigation__item-link {
+	color: black;
+}
+
+svg.path {
+	fill: red !important;
+}
