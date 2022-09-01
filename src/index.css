@@ -4,12 +4,13 @@
 
 .header {
 	--telekom-color-primary-standard: white;
+	--telekom-color-background-canvas: white;
 }
 
 .segment-navigation__item-link {
 	color: black;
 }
 
-svg.path {
-	fill: red !important;
+.logo {
+	height: 50px;
 }
