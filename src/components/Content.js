@@ -1,6 +1,6 @@
-export default function Body() {
+export default function Content() {
   return (
-    <div class="flex">
+      <div class="prefooter container">
         <div class="flex-none content-center">
             <ul class="list-disc list-inside">
               <li>One</li>
@@ -8,6 +8,6 @@ export default function Body() {
               <li>Three</li>
             </ul>
         </div>
-    </div>
+      </div>
   );
 }
