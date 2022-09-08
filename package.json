@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@telekom/scale-components": "^3.0.0-beta.110",
+    "@telekom/scale-components-react": "^3.0.0-beta.56",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
